@@ -1,10 +1,9 @@
 # NLDR-Tutorial
 
-This tutorial is comprised of a somewhat nonlinear presentation of Nonlinear Dimensionality Reduction
-and a supplemental Google Colab notebook with guided examples.
+This tutorial is comprised of a somewhat nonlinear presentation of Nonlinear Dimensionality Reduction (presented virtually at MIT's Center for Brain, Minds, and Machines in 2020) as well as a supplemental Google Colab notebook with guided examples.
 
 * [Link to Presentation (Video)](https://cbmm.mit.edu/video/nonlinear-dimensionality-reduction)
-  - The Classics: Reviews PCA (from various angles), Multi-Dimensional Scaling (MDS), and Kernel PCA. 
+  - The Classics: Review of PCA (from various angles), Multi-Dimensional Scaling (MDS), and Kernel PCA. 
   - Shape and Space: Introductory exposition to topology, manifolds, Riemannian geometry and their relationship to NLDR.
   - Manifold Learning: Introduction and discussion of Isomap, Laplacian Eigenmaps, and Diffusion Maps and their properties.
   - Stochastic Dynamics: Some ways NLDR can be used to simplify stochastic dynamical systems. 
