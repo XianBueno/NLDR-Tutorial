@@ -2,15 +2,13 @@ import numpy as np
 from numpy import sqrt
 from numpy.matlib import zeros as matzeros
 from numpy import linalg as LA
-#from sklearn.neighbors import NearestNeighbors
-#import scipy.spatial as spatial
 
 # According to: http://stackoverflow.com/questions/6684238/whats-the-fastest-way-to-find-eigenvalues-vectors-in-python
-# we should use scipy.linalg instead for speed
+# we should consider using scipy.linalg instead for speed
 
 class DiffusionMap:
     # This class will contain data, the diffusion embedding of the data,
-    # and the Out-of-Sample-Extension (OoSE) for new points.
+    # and the Out-of-Sample-Extension (OoSE) mapping for new points.
     # We use "dfm" as an abbreviation of diffusion maps. 
     
     def __init__(self, pts):

@@ -5,19 +5,19 @@ Created on Sun Apr 23 17:08:21 2017 @author: Xian
 
 import numpy as np
 from numpy import pi
-from numpy import linalg as LA
+from numpy.linalg import norm
 from numpy import random as rand
 
 # N will be the number of sample points unless otherwise specified
 
-def arclength(path, onlyTotal=False):
+def arclength(path, onlyTotal=True):
     # Approximates the arclength parametrization emprically by segments
     # `path' should have columns be coordinates, rows observation
     N = path.shape[0]
     path = path.reshape((N,-1))
     s = np.zeros(N)
     for i in range(N-1):
-        s[i+1] = s[i] + LA.norm( path[i+1,:] - path[i,:] )
+        s[i+1] = s[i] + norm( path[i+1,:] - path[i,:] )
     if onlyTotal:
         return s[-1]    # Final value is total arclength
     else:
