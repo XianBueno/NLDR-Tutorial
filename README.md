@@ -4,7 +4,7 @@ This tutorial is comprised of a somewhat nonlinear presentation of Nonlinear Dim
 
 * [Link to Presentation (Video)](https://cbmm.mit.edu/video/nonlinear-dimensionality-reduction)
   - The Classics: Review of PCA (from various angles), Multi-Dimensional Scaling (MDS), and Kernel PCA. 
-  - Shape and Space: Introductory exposition to topology, manifolds, Riemannian geometry and their relationship to NLDR.
+  - Shape and Space: Introductory exposition on topology, manifolds, Riemannian geometry and their relationship to NLDR.
   - Manifold Learning: Introduction and discussion of Isomap, Laplacian Eigenmaps, and Diffusion Maps and their properties.
   - Stochastic Dynamics: Some ways NLDR can be used to simplify stochastic dynamical systems. 
 * [Link to Tutorial (Google Colab Notebook)](https://colab.research.google.com/drive/1RJ-3oZjzXYH02ai81QRQinGbr86NQvef?usp=sharing)
